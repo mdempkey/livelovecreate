@@ -6,18 +6,17 @@ body{
 	display:block;
 	margin:0%;
 }
+
 .page{
 	height:33%;
 	width:100%;
 }
-
 
 .header{
 	height:15%;
 	width:100%;
 	display:flex;
 }
-
 
 .content{
 	display:flex;
@@ -29,14 +28,13 @@ body{
 .content2{
 	display:flex;
 	height:50%;
-	width:100%;
-	
+	width:100%;	
 }
+
 .content3{
 	display:flex;
 	height:80%;
-	width:100%;
-	
+	width:100%;	
 }
 
 .centerpage{
@@ -47,13 +45,11 @@ body{
 	margin-left:-5%;
 }
 
-
 .border{
 	border-style: solid;
-    border-width:7px;
+    	border-width:7px;
 	border-color: black;
 	display: flex;
-	
 }
 
 .half-page{
@@ -73,7 +69,6 @@ body{
 	max-width:100%;
 	max-height:100%;
 }
-
 
 .border2{
 	border: 9px purple double;
@@ -137,8 +132,8 @@ p{
 }
 
 
-.width{
- width:70%;
+.width {
+ 	width:70%;
 }
 
 
@@ -153,6 +148,7 @@ p{
 	width:90%;
 	height:90%;
 }
+
 .flip-box {
   background-color: transparent;
   width: 90%;
@@ -165,33 +161,33 @@ p{
 }
 
 .flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	text-align: center;
+  	transition: transform 0.8s;
+  	transform-style: preserve-3d;
 }
 
 .flip-box:hover .flip-box-inner {
-  transform: rotateX(180deg);
+ 	transform: rotateX(180deg);
 }
 
 .flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+  	position: absolute;
+ 	width: 100%;
+  	height: 100%;
+  	backface-visibility: hidden;
 }
 
 .flip-box-front {
-  background-color: #bbb;
-  color: black;
+  	background-color: #bbb;
+  	color: black;
 }
 
 .flip-box-back {
-  background-color: #b9d3e5;
-  transform: rotateX(180deg);
+  	background-color: #b9d3e5;
+  	transform: rotateX(180deg);
 }
 
 
