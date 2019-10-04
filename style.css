@@ -65,6 +65,7 @@ body{
 }*/
 
 .photo {
+	/*this code is the placement of the header photo aka the live-love-create sign */
 	content: url("images/live.png");
 	max-width:100%;
 	max-height:100%;
@@ -81,7 +82,6 @@ h1{
 	text-align:center;
 	color:black;
 }
-
 
 @keyframes bgcolor {
     0% {
@@ -192,8 +192,10 @@ p{
 
 
 @media only screen and (max-width:800px){
+	
 	body{
 		-webkit-animation: bgcolor 20s infinite;
+		/*this code is for making the background change when the brower changes smaller*/
 		animation: bgcolor 10s infinite;
 		-webkit-animation-direction: alternate;
 		animation-direction: alternate;
@@ -201,13 +203,14 @@ p{
 		
 	}
 	.photo {
-	content: url("images/live2.png");
-	max-width:100%;
-	max-height:100%;
+		content: url("images/live2.png");
+		max-width:100%;
+		max-height:100%;
 	}
 	
 	.gone{
 		display:none;
+		/*this code is for making the bubbbles on the side disaper when the brower gets smaller*/
 	}
 	
 	.content{
@@ -240,6 +243,4 @@ p{
 		font-size:150%;
 		margin-top:10%;
 	}
-		
-	
 }
