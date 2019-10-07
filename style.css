@@ -190,12 +190,12 @@ p{
   	transform: rotateX(180deg);
 }
 
-
+/*this code below is for when the brower gets smaller or on a device */
 @media only screen and (max-width:800px){
 	
 	body{
 		-webkit-animation: bgcolor 20s infinite;
-		/*this code is for making the background change when the brower changes smaller*/
+		/*this code is for making the background color change when the brower changes smaller*/
 		animation: bgcolor 10s infinite;
 		-webkit-animation-direction: alternate;
 		animation-direction: alternate;
